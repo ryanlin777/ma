@@ -8,8 +8,10 @@
 curl -s https://raw.githubusercontent.com/nickchangs/ma/master/maintain.html -o "/opt/Htdocs/ma/maintain.html"
 
 curl -s https://raw.githubusercontent.com/nickchangs/ma/master/wap_maintain.html -o "/opt/Htdocs/ma/wap_maintain.html"
+
 APP維謢時間頁面：
 
+curl -s https://raw.githubusercontent.com/nickchangs/ma/master/ma.conf -o "/opt/APP/openresty/nginx/conf/ma/ma.conf"
 
 前台：
 請編輯各SSH.conf檔，將$MAM 0改為1，再reload nginx服務即可
