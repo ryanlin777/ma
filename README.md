@@ -17,5 +17,5 @@ curl -s https://raw.githubusercontent.com/nickchangs/ma/master/ma.conf -o "/opt/
 請編輯各SSH.conf檔，將$MAM 0改為1，再reload nginx服務即可
 
 APP:
-請編輯各nginx.conf檔，將incule原本vhost/*.conf Mark掉 ，並改為 include /opt/APP/openresty/nginx/conf/ma/*.conf; ，再reload nginx服務
+請編輯各nginx.conf檔，將incule原本vhost/*.conf Mark掉 ，並改為 include /opt/APP/openresty/nginx/conf/ma/ma.conf; ，再reload nginx服務
 
